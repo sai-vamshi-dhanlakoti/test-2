@@ -1,0 +1,17 @@
+@import 'bootstrap/scss/bootstrap';
+
+.product_create_container {
+  .btn-back {
+    margin-bottom: 24px;
+  }
+  .create_form {
+    padding: 24px;
+    border-radius: 12px;
+    .title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import 'bootstrap/scss/bootstrap';
+
+.nav-link-item {
+  border-radius: 12px;
+  padding: 12px 24px;
+  text-decoration: none !important;
+  color: $gray-800 !important;
+
+  &:hover {
+    background-color: $primary;
+    color: $white !important;
+  }
+  &.activate {
+    background-color: $primary;
+    color: $white !important;
+    font-weight: 700;
+  }
+}
